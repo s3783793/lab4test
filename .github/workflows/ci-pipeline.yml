@@ -30,9 +30,7 @@ jobs:
 
   # Unit tests
   unit-tests:
-    needs: 
-      - lint
-      - lint2
+    needs: lint
     runs-on: ubuntu-latest
     steps:
     # Checkout the repo
